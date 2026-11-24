@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Epore</title>
+	<!-- Vite sirve los archivos de public/img desde /img. -->
+	<link rel="icon" type="image/x-icon" href="/img/logo%20reforma%20pie.ico">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700;800&family=Special+Elite&display=swap" rel="stylesheet">
@@ -14,7 +16,7 @@
 			margin: 0;
 			color: #202020;
 			font-family: Arial, sans-serif;
-			background: #ff8200 url("img/aula5baranda.jpg") center center / cover no-repeat fixed;
+			background: #ff8200 url("/img/aula5baranda.jpg") center center / cover no-repeat fixed;
 		}
 		body::before {
 			content: "";
@@ -151,7 +153,7 @@
 			</a>
 		</div>
 		<div class="marca">
-			<a href="index.html" aria-label="Epore - inicio"><img src="img/bannerpagina.png" alt="Estudiantes por Ezeiza, centro de estudiantes UPE"></a>
+			<a href="index.html" aria-label="Epore - inicio"><img src="/img/bannerpagina.png" alt="Estudiantes por Ezeiza, centro de estudiantes UPE"></a>
 		</div>
 		<nav aria-label="Menú principal">
 			<ul>
@@ -184,11 +186,11 @@
 	<main>
 		<section id="inicio" class="instagram" aria-labelledby="instagram-titulo">
 			<div class="banner-inscripcion">
-				<img src="img/boton inscripcion.png" alt="Inscripciones 2027">
+				<img src="/img/boton inscripcion.png" alt="Inscripciones 2027">
 				<a class="btn-inscribite" href="http://34.232.173.37/preinscripcion/upe/alta_usuario" target="_blank" rel="noopener noreferrer">Inscribite</a>
 			</div>
 			<div class="intro-video-marco">
-				<video class="intro-video" src="img/pagina%20web%20ceupe.mp4" autoplay muted loop playsinline aria-label="Animación de presentación de Epore"></video>
+				<video class="intro-video" src="/img/pagina%20web%20ceupe.mp4" autoplay muted loop playsinline aria-label="Animación de presentación de Epore"></video>
 			</div>
 			<h2 id="instagram-titulo">Últimas publicaciones de Instagram</h2>
 			<p class="instagram-nota">Las publicaciones avanzan solas. Pasa el mouse por la izquierda o la derecha del carrusel para ir atrás o adelante.</p>
@@ -210,7 +212,7 @@
 			<p><a href="https://www.instagram.com/eporeupe/" target="_blank" rel="noopener noreferrer">Ver todas las publicaciones en Instagram</a></p>
 		</section>
 		<section id="quienes-somos" class="quienes-somos">
-			<img id="imagen-staff" src="img/eporesteff.png" alt="Equipo de Epore">
+			<img id="imagen-staff" src="/img/eporesteff.png" alt="Equipo de Epore">
 			<div>
 				<h2>Somos tu centro!</h2>
 				<p>Somos estudiantes como vos, alumnos de diferentes carreras que dedicamos nuestro tiempo a ayudarte, porque alguna vez, estuvimos del otro lado de la mesita. Nos podes encontrar todos los dias en el hall centrar de la upe en la MESITA NARANJA, donde podemos ayudarte, escucharte o ofrecerte un mate.</p>
@@ -219,7 +221,7 @@
 		</section>
 		<section id="manifiesto-1918" class="manifiesto" aria-labelledby="manifiesto-titulo">
 			<div class="manifiesto-marco">
-				<img src="img/manifiesto1918.webp" alt="">
+				<img src="/img/manifiesto1918.webp" alt="">
 				<div class="manifiesto-texto">
 					<h2 id="manifiesto-titulo">La juventud argentina de Córdoba a los hombres libres de Sud América</h2>
 					<p class="manifiesto-fecha">Manifiesto de la Federación Universitaria de Córdoba – 1918<br>21 de junio de 1918</p>
@@ -247,37 +249,37 @@
 			<h2 id="planes-titulo">Planes de estudio 2019</h2>
 			<p class="planes-nota">Descargá el plan de cada carrera desde Google Drive.</p>
 			<ul class="planes-lista">
-				<li class="plan-banner" style="--banner: url('img/tec software.png'); --posicion: 46%">
+				<li class="plan-banner" style="--banner: url('/img/tec software.png'); --posicion: 46%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1AAiGCdpQYDqAYuQS1lTDMULcJrHkzYre" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Tecnicatura en Desarrollo de Software desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/lic gestion.png'); --posicion: 47%">
+				<li class="plan-banner" style="--banner: url('/img/lic gestion.png'); --posicion: 47%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=15Jcql-6CskeMUxgJ485EapNKRwMT78B3" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Licenciatura en Gestión Aeroportuaria desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/tec logistica.png'); --posicion: 44%">
+				<li class="plan-banner" style="--banner: url('/img/tec logistica.png'); --posicion: 44%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1ftHgGypsIFkfsbt-95Nn_oPqbPMIh0Rb" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Tecnicatura en Logística desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/tec seh.png'); --posicion: 45%">
+				<li class="plan-banner" style="--banner: url('/img/tec seh.png'); --posicion: 45%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1oQuDO8aA5qdoSwDVbas9c4oJTFwLEnBD" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Tecnicatura en Seguridad e Higiene desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/tec guia.png'); --posicion: 47%">
+				<li class="plan-banner" style="--banner: url('/img/tec guia.png'); --posicion: 47%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1OySC8wB4I1PuEAh_h02w9uwrgSu6lOW8" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Tecnicatura en Guía de Turismo desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/tec despacho.png'); --posicion: 38%">
+				<li class="plan-banner" style="--banner: url('/img/tec despacho.png'); --posicion: 38%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1dUu7AkEEctb-S1FhjYY5hyoILJV6-OhN" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Tecnicatura en Despacho desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/lic seh.png'); --posicion: 49%">
+				<li class="plan-banner" style="--banner: url('/img/lic seh.png'); --posicion: 49%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1oQuDO8aA5qdoSwDVbas9c4oJTFwLEnBD" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Licenciatura en Seguridad e Higiene desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/tec hoteleria.png'); --posicion: 46%">
+				<li class="plan-banner" style="--banner: url('/img/tec hoteleria.png'); --posicion: 46%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1_BF8qv08kMqtQ8e80jI8E8C-ObryO7P5" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Tecnicatura en Hotelería desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/lic logistica.png'); --posicion: 39%">
+				<li class="plan-banner" style="--banner: url('/img/lic logistica.png'); --posicion: 39%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1lwFEwkhTuEB-1j7X15Ed7yodrqdxaZ7V" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Licenciatura en Logística desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/lic turismo.png'); --posicion: 41%">
+				<li class="plan-banner" style="--banner: url('/img/lic turismo.png'); --posicion: 41%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1HDcdAKPjLMaVkmsgmgWK6xZoQbAk7kNo" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Licenciatura en Turismo desde Google Drive">Descargar</a>
 				</li>
-				<li class="plan-banner" style="--banner: url('img/lic comercio.png'); --posicion: 41%">
+				<li class="plan-banner" style="--banner: url('/img/lic comercio.png'); --posicion: 41%">
 					<a class="plan-enlace" href="https://drive.google.com/uc?export=download&amp;id=1A7O5KFEMAaPaOeEnUWTCTojlYdA5j7vt" target="_blank" rel="noopener noreferrer" aria-label="Descargar plan de Licenciatura en Comercio desde Google Drive">Descargar</a>
 				</li>
 			</ul>
@@ -288,10 +290,10 @@
 		<section id="tramitar-titulo"><h2>Tramitar tu título</h2></section>
 	</main>
 	<footer class="pie">
-		<img src="img/logo reforma pie.png" alt="Logo de Estudiantes por Ezeiza">
+		<img src="/img/logo reforma pie.png" alt="Logo de Estudiantes por Ezeiza">
 		<p>© Estudiantes por Ezeiza. Derechos reservados.</p>
 	</footer>
-	<script>
+	<script type="module">
 		const secciones = document.querySelectorAll('main > section');
 		function mostrarSeccion() {
 			const destino = location.hash.slice(1);
@@ -333,10 +335,10 @@
 		let extensionStaff = 0;
 		imagenStaff.onerror = () => {
 			extensionStaff++;
-			if (extensionStaff < extensiones.length) imagenStaff.src = `img/eporeestaff.${extensiones[extensionStaff]}`;
+			if (extensionStaff < extensiones.length) imagenStaff.src = `/img/eporeestaff.${extensiones[extensionStaff]}`;
 		};
 
 	</script>
-	<script src="js/carrusel.js"></script>
+	<script type="module" src="js/carrusel.js"></script>
 </body>
 </html>
