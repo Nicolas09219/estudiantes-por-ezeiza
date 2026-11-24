@@ -16,7 +16,7 @@
 			margin: 0;
 			color: #202020;
 			font-family: Arial, sans-serif;
-			background: #ff8200 url("/img/aula5baranda.jpg") center center / cover no-repeat fixed;
+			background: #ff8200 url("/img/aula5baranda.webp") center center / cover no-repeat fixed;
 		}
 		body::before {
 			content: "";
@@ -153,7 +153,7 @@
 			</a>
 		</div>
 		<div class="marca">
-			<a href="index.html" aria-label="Epore - inicio"><img src="/img/bannerpagina.png" alt="Estudiantes por Ezeiza, centro de estudiantes UPE"></a>
+			<a href="index.html" aria-label="Epore - inicio"><img src="/img/bannerpagina.webp" alt="Estudiantes por Ezeiza, centro de estudiantes UPE"></a>
 		</div>
 		<nav aria-label="Menú principal">
 			<ul>
@@ -212,7 +212,7 @@
 			<p><a href="https://www.instagram.com/eporeupe/" target="_blank" rel="noopener noreferrer">Ver todas las publicaciones en Instagram</a></p>
 		</section>
 		<section id="quienes-somos" class="quienes-somos">
-			<img id="imagen-staff" src="/img/eporesteff.png" alt="Equipo de Epore">
+			<img id="imagen-staff" src="/img/eporesteff.webp" alt="Equipo de Epore">
 			<div>
 				<h2>Somos tu centro!</h2>
 				<p>Somos estudiantes como vos, alumnos de diferentes carreras que dedicamos nuestro tiempo a ayudarte, porque alguna vez, estuvimos del otro lado de la mesita. Nos podes encontrar todos los dias en el hall centrar de la upe en la MESITA NARANJA, donde podemos ayudarte, escucharte o ofrecerte un mate.</p>
@@ -328,15 +328,6 @@
 			item.addEventListener('mouseenter', () => item.classList.add('abierto'));
 			item.addEventListener('mouseleave', () => item.classList.remove('abierto'));
 		});
-
-		// Buscar la imagen del equipo con las extensiones habituales del proyecto.
-		const extensiones = ['jpg', 'jpeg', 'png', 'webp'];
-		const imagenStaff = document.getElementById('imagen-staff');
-		let extensionStaff = 0;
-		imagenStaff.onerror = () => {
-			extensionStaff++;
-			if (extensionStaff < extensiones.length) imagenStaff.src = `/img/eporeestaff.${extensiones[extensionStaff]}`;
-		};
 
 	</script>
 	<script type="module" src="js/carrusel.js"></script>
